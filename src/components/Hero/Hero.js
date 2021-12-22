@@ -7,7 +7,7 @@ import { LeftSection } from './HeroStyles';
 
 
 const Hero = () => (
- <section row nopadding>
+ <Section row nopadding>
    <LeftSection>
    <SectionTitle main center>
      MATHIBELA DINEO
@@ -17,7 +17,7 @@ const Hero = () => (
    </SectionText>
    <Button size="0.5px">Learn More</Button>
    </LeftSection>
- </section>
+ </Section>
 );
 
 export default Hero;

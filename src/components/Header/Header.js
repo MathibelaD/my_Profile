@@ -8,7 +8,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 const Header = () =>  (
 
   //navigation bar (horzontal)
-  <Container>
+  <Container id="home">
       {/* <Div1>
           <Link href="/">
             <a style={{display: "flex", alignItems: "center", color: "white"}}>
@@ -18,7 +18,7 @@ const Header = () =>  (
   </Div1> */}
   <Div2>
   <li>
-      <Link href="#about">
+      <Link href="#home">
         <NavLink>HOME</NavLink>
       </Link>
     </li>
@@ -28,7 +28,7 @@ const Header = () =>  (
       </Link>
     </li>
     <li>
-      <Link href="#tech">
+      <Link href="#projects">
         <NavLink>RESUME</NavLink>
       </Link>
     </li>
