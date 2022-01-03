@@ -8,7 +8,10 @@ const Technologies = () =>  (
     <SectionDivider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web development world. From back-end To Design 
+      I've worked with a range of technologies in the web development world.
+      Focusing on the visual elements of a website or app that the user interact with(the client side),
+      manipulating and storing data using SQL databases. I have learned the fundemental concepts of Object-Oriented Programming; Inhereritance,
+      Encapsulation,Polymorphism, and Data Abstration.  
     </SectionText>
     <List>
       <ListItem>

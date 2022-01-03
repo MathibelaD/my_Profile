@@ -9,13 +9,6 @@ const Header = () =>  (
 
   //navigation bar (horzontal)
   <Container id="home">
-      {/* <Div1>
-          <Link href="/">
-            <a style={{display: "flex", alignItems: "center", color: "white"}}>
-              <DiCssdeck size="3rem" /> <span>Student Portfolio</span>
-            </a>
-          </Link>
-  </Div1> */}
   <Div2>
   <li>
       <Link href="#home">
@@ -38,20 +31,20 @@ const Header = () =>  (
       </Link>
     </li>
     <li>
-      <Link href="#tech">
+      <Link href="#footer">
         <NavLink>CONTACT</NavLink>
       </Link>
     </li>
 
   </Div2>
   <Div3>
-      <SocialIcons href="https:github.com">
+      <SocialIcons href="https://github.com/MathibelaD">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https:linkedin.com">
+      <SocialIcons href="https://www.linkedin.com/in/dineo-mathibela-53aa191a5">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https:facebook.com">
+      <SocialIcons href="https://www.facebook.com/phindile.dineo.31">
         <AiFillFacebook size="3rem" />
       </SocialIcons>
 

@@ -6,7 +6,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-   <FooterWrapper align="center">
+   <FooterWrapper align="center" id="footer">
      <LinkList>
       <LinkColumn>
         <LinkTitle>CONTACT</LinkTitle>
@@ -25,15 +25,15 @@ const Footer = () => {
       </CompanyContainer>
       <SocialContainer>
 
-        <SocialIcons href="https:github.com">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https:linkedin.com">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https:facebook.com">
-          <AiFillFacebook size="3rem" />
-        </SocialIcons>
+  <SocialIcons href="https://github.com/MathibelaD">
+    <AiFillGithub size="3rem" />
+    </SocialIcons>
+    <SocialIcons href="https://www.linkedin.com/in/dineo-mathibela-53aa191a5">
+      <AiFillLinkedin size="3rem" />
+    </SocialIcons>
+    <SocialIcons href="https://www.facebook.com/phindile.dineo.31">
+      <AiFillFacebook size="3rem" />
+  </SocialIcons>
 
       </SocialContainer>
     </SocialIconsContainer>

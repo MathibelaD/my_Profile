@@ -8,6 +8,16 @@ export const projects = [
     visit: 'https://google.com',
     id: 0,
   },
+
+  {
+    title: 'Student Profile',
+    description: "Student Website using HTML, JAVASCRIPT, CSS",
+      image: '/images/studentS.jpg',
+      tags: ['Mongo', 'Express', 'React', 'Node'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 1,
+  }
 ];
 
 export const TimeLineData = [
