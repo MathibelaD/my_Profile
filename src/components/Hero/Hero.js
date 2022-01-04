@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 //import images from '../images';
 
@@ -13,9 +14,12 @@ const Hero = () => (
      MATHIBELA DINEO
    </SectionTitle>
    <SectionText>
-   I am final year student Software Developer at Tshwane University of Technology 
+   A final year Software Development Student at Tshwane University of Technology.
+  who is extremely confident and competent with computers also acknowledgeable about Digital Technology.  
    </SectionText>
-   <Button size="0.5px">Learn More</Button>
+   <Link href="#about">
+    <Button>Learn More</Button>
+   </Link>
    </LeftSection>
  </Section>
 );
